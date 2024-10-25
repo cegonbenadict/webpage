@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Position Practice</title>
+    <title> Paralex</title>
+    <style>
+      /* Basic body styling */
+      body {
+        height: 3000px;
+        padding-top: 60px;
+        padding-left: 80px;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Style for the parallax effect */
+      .parallax {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      /* Style for each content section */
+      .content-section {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+      }
+    </style>
   </head>
-  <body style="
-    height: 3000px;
-    padding-top: 60px;
-    padding-left: 80px;
-  ">
-<div class="parent">
-  <div class="parallex">
-  <h1>deserunt dolores molestiae 1</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
-  </div>
-</div>
+  <body>
 
-<div class="parent">
-  <div>
-  <h1>deserunt dolores molestiae 2</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
-  </div>
-</div>
+    <div class="parent">
+      <div class="parallax">
+        <h1>deserunt dolores molestiae 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
+      </div>
+    </div>
 
-<div class="parent">
-  <div>
-  <h1>deserunt dolores molestiae 3</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
-  </div>
-</div>
+    <div class="parent content-section">
+      <h1>deserunt dolores molestiae 2</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
+    </div>
 
-<div class="parent">
-  <div>
-  <h1>deserunt dolores molestiae 4</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
-  </div>
-</div>
+    <div class="parent content-section">
+      <h1>deserunt dolores molestiae 3</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
+    </div>
 
-<div class="parent">
-  <div>
-  <h1>deserunt dolores molestiae 5</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
-  </div>
-</div>
-</body>
+    <div class="parent content-section">
+      <h1>deserunt dolores molestiae 4</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
+    </div>
+
+    <div class="parent content-section">
+      <h1>deserunt dolores molestiae 5</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati beatae perferendis deserunt dolores molestiae hic dolorum maxime numquam, ad rerum quas optio quis ut</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Avatar_girl_face.png" width="100"/>
+    </div>
+
+  </body>
 </html>
+
